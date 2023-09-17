@@ -1,0 +1,83 @@
+body {
+    font-family: Arial, sans-serif;
+    background:linear-gradient(0.25turn, #d3d7db, #b2d3c9, #98c9a9);
+}
+.background-image {
+    background-image: url('student.webp');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    opacity: 0.7;
+}
+h2 {
+    color: #555;
+    text-align: center;
+}
+.container {
+    max-width: 450px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: rgba(0, 0, 255, 0.2); /* Slight blue overlay */
+
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(240, 9, 9, 0.1);
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+form {
+    display: grid;
+    gap: 10px;
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 90%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.col {
+    color: white;
+    flex: 1;
+    margin-right: 10px;
+}
+.col1{
+    color: white;
+}
+input[type="submit"] {
+    width: 95%;
+    margin: 5px;
+    background-color: #eca71d;
+    color: #fff;
+    padding: 10px ;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+p{
+    text-align: center;
+}
+button{
+    width: 95%;
+    margin: 5px;
+    background-color: #eca71d;
+    color: #fff;
+    padding: 10px ;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+h3{
+    text-align: center;
+    color: #eca71d;
+}

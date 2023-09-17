@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="background-image">
+        <h1> WELCOME TO THE CHANDIGARH UNIVERSITY</h1>
+        <h3> AN ILLUSTRIOUS CAREER BEGINS AT A GLOBALLY</h3>
+        <h1>TOP-RANKED<br>UNIVERSITY</h1>
+        <h3 style="color: black;">CUCET rewards your academic brilliance with <br>
+            global opportunities & extraordinary assistance<br>
+            with<br></h3>
+        <h2 style="color: orange;">scholarships worth Rs.60 Crores.</h2>
+          <div class="container">
+            <form action="http://127.0.0.1:8000/pg" method="GET">
+                <h2 style=" color: white;"> ONLINE APPLICATION</h2>
+                <h3>Apply for CUCET (Phase-II)</h3>
+                <div class="row">
+                    <div class="col">First Name:<input type="text" name="first_name">
+                    </div>
+                    <div class="col"> Last Name:<input type="text" name="last_name">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col1">User Name:<input type="text" name="user_name"></div>
+                    <div class="col1"> Password:<input type="password" name="password"></div>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <input type="submit" value="Register">
+                    </div>
+            </form>
+        </div>
+        <button onclick="goToLoginPage()">Login Here</button>
+
+        <p style="color: white;">
+            By submitting this form.I agree to receive notifications from the <br>
+            University in the form of SMS/E-mail/Call.
+        </p>
+
+    </div>
+    </div>
+    </div>
+</body>
+<script>
+    function goToLoginPage() {
+        window.location.href = 'Login.html';
+    }
+</script>
+
+</html>
